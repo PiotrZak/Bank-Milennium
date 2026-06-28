@@ -1,0 +1,9 @@
+@Cards.Api_HostAddress = http://localhost:5202
+
+# User1 — Prepaid, Closed (card index 17)
+GET {{Cards.Api_HostAddress}}/users/User1/cards/4010000000000174/allowed-actions
+Accept: application/json
+
+###
+
+GET {{Cards.Api_HostAddress}}/health/ready

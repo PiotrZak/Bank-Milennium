@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+.git/
+docs/
+tests/
+**/.vs/
+**/*.user
+**/*.md
+!README.md
